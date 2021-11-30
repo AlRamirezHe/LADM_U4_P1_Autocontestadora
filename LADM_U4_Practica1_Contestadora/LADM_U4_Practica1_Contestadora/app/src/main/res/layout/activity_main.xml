@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grisLigero"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/transparente"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="12dp">
+
+            <!-- VER LISTA DE Contactos Firestore -->
+            <LinearLayout
+                android:id="@+id/itemVerContactosBD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/rojoLigero"
+                android:layout_marginBottom="8dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/icono_bd"
+                    app:tint="@color/rojoOscuro"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="14dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lista de contactos en Firestore"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:background="@color/rojoOscuro"
+                    android:textColor="@color/rojoLigero"
+                    android:gravity="center"
+                    android:paddingVertical="8dp"
+                    android:paddingHorizontal="5dp"/>
+            </LinearLayout>
+
+            <!-- VER MIS CONTACTOS-->
+            <LinearLayout
+                android:id="@+id/itemVerMisContactos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/rojoLigero"
+                android:layout_marginBottom="8dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/icono_agenda"
+                    app:tint="@color/rojoOscuro"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="14dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ver mis contactos"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:background="@color/rojoOscuro"
+                    android:textColor="@color/rojoLigero"
+                    android:gravity="center"
+                    android:paddingVertical="8dp"
+                    android:paddingHorizontal="5dp"/>
+            </LinearLayout>
+
+            <!-- ACTIVAR CONTESTADORA -->
+            <LinearLayout
+                android:id="@+id/itemBotonContestadora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/rojoLigero"
+                android:layout_marginBottom="8dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/icono_contestadora"
+                    android:layout_marginTop="8dp"
+                    app:tint="@color/rojoOscuro"
+                    android:layout_marginBottom="14dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Activar Contestadora"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:background="@color/rojoOscuro"
+                    android:textColor="@color/rojoLigero"
+                    android:gravity="center"
+                    android:paddingVertical="8dp"
+                    android:paddingHorizontal="5dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

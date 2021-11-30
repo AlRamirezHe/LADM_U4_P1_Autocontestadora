@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "692457010710",
+    "project_id": "u4contestadora",
+    "storage_bucket": "u4contestadora.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692457010710:android:d114d4e7309f6608bd2737",
+        "android_client_info": {
+          "package_name": "mx.tecnm.tepic.alramirezh.ladm_u4_practica1_contestadora"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "692457010710-cb01ce41klfspfeao95o4tgrvq8i6c16.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4uTfTdSeAvpOGNFWcmpkSm4DWN0ULQRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "692457010710-cb01ce41klfspfeao95o4tgrvq8i6c16.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
